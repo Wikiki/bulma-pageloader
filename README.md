@@ -8,4 +8,4 @@ Usage
 ```
 <div id="page-loader" class="bg-primary"></div>
 
-// Add show class to display it
+// Add "show" class to display it
