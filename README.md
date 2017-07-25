@@ -6,7 +6,7 @@ Usage
 ---
 
 ```
-<div id="page-loader"></div>
+<div class="pageloader"></div>
 
 // Add "is-active" class to display it
-<div id="page-loader" class="is-active"></div>
+<div class="pageloader is-active"></div>
