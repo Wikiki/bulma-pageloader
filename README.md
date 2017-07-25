@@ -10,3 +10,8 @@ Usage
 
 // Add "is-active" class to display it
 <div class="pageloader is-active"></div>
+
+
+Demo
+---
+[https://codepen.io/anon/pen/yoyaMq](https://codepen.io/anon/pen/yoyaMq)
