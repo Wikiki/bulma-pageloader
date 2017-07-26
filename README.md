@@ -1,6 +1,9 @@
 # bulma-pageloader
 Bulma's extension to show a page loader
 
+Overview
+---
+![Pageloader Element](https://img15.hostingpics.net/pics/217768bulmapageloader.gif)
 
 Usage
 ---
