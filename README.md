@@ -8,7 +8,7 @@ Overview
 Usage
 ---
 
-```
+```html
 <div class="pageloader"></div>
 
 // Add "is-active" class to display it
