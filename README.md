@@ -1,5 +1,5 @@
 # bulma-pageloader
-Bulma's extension to show a page loader
+Bulma's extension to show a page loader overlay of the whole page.
 
 Overview
 ---
