@@ -5,6 +5,11 @@
   bottom: 0
   left: 0
   background-color: $primary
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    $color-invert: nth($pair, 2)
+    &.is-#{$name}
+      background-color: $color
   z-index: 999998
   transition: -webkit-transform .35s ease-out
   transition: transform .35s ease-out
