@@ -1,6 +1,6 @@
 {
   "name": "bulma-pageloader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Display a page-loader to inform user that content is loading, in different colors. ",
   "main": "index.js",
   "scripts": {
