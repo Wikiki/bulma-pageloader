@@ -12,4 +12,4 @@ Overview
 
 Documentation & Demo
 ---
-You can find the Documentation and a demo [here](https://wikiki.github.io/bulma-extensions/pageloader)
+You can find the Documentation and a demo [here](https://wikiki.github.io/elements/pageloader/)
