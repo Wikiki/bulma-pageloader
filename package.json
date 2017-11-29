@@ -1,8 +1,8 @@
 {
   "name": "bulma-pageloader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Display a page-loader to inform user that content is loading, in different colors. ",
-  "main": "index.js",
+  "main": "pageloader.sass",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/Wikiki/bulma-pageloader/issues"
   },
-  "homepage": "https://github.com/Wikiki/bulma-pageloader#readme"
+  "homepage": "https://github.com/Wikiki/bulma-pageloader#readme",
+  "devDependencies": {
+    "bulma": "^0.6.1"
+  },
+  "files": [
+    "pageloader.sass",
+    "pageloader.css",
+    "pageloader.min.css",
+    "LICENSE",
+    "README.md"
+  ]
 }
