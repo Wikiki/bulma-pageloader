@@ -6,7 +6,7 @@ $pageloader-opacity: 1 !default
     @content
   @-moz-keyframes #{$name}
     @content
-  @-ms-keyframes #{$name}
+  @-o-keyframes #{$name}
     @content
   @keyframes #{$name}
     @content
@@ -31,15 +31,27 @@ $pageloader-opacity: 1 !default
       .title
         color: $color-invert
   z-index: 999998
-  transition: -webkit-transform .35s ease-out
-  transition: transform .35s ease-out
   transition: transform .35s ease-out,-webkit-transform .35s ease-out
-  -webkit-transform: translateY(-100%)
-  transform: translateY(-100%)
   will-change: transform
+  &:not(.is-left-to-right),
+  &:not(.is-right-to-left)
+    -webkit-transform: translateY(-100%)
+    transform: translateY(-100%)
+  &.is-left-to-right
+    -webkit-transform: translateX(-100%)
+    transform: translateX(-100%)
+  &.is-right-to-left
+    -webkit-transform: translateX(100%)
+    transform: translateX(100%)
   &.is-active
-    -webkit-transform: translateY(0)
-    transform: translateY(0)
+    &:not(.is-left-to-right),
+    &:not(.is-right-to-left)
+      -webkit-transform: translateY(0)
+      transform: translateY(0)
+    &.is-left-to-right,
+    &.is-right-to-left
+      -webkit-transform: translateX(0)
+      transform: translateX(0)
   &::after
     position: absolute
     top: 50%
@@ -49,25 +61,18 @@ $pageloader-opacity: 1 !default
     content: ''
     z-index: 9999
     -webkit-transform: translate(-50%, -50%)
-    -moz-transform: translate(-50%, -50%)
-    -ms-transform: translate(-50%, -50%)
-    -o-transform: translate(-50%, -50%)
     transform: translate(-50%, -50%)
     width: 0
     height: 0
     box-sizing: border-box
     border: 0 solid $white
     -webkit-animation: loader-figure 1.15s infinite cubic-bezier(0.215, 0.61, 0.355, 1)
-    -moz-animation: loader-figure 1.15s infinite cubic-bezier(0.215, 0.61, 0.355, 1)
     animation: loader-figure 1.15s infinite cubic-bezier(0.215, 0.61, 0.355, 1)
   .title
     position: absolute
     top: 50%
     left: 50%
     -webkit-transform: translateX(-50%)
-    -moz-transform: translateX(-50%)
-    -ms-transform: translateX(-50%)
-    -o-transform: translateX(-50%)
     transform: translateX(-50%)
     margin: 2em 0 0 0
     font-size: 0.875em
