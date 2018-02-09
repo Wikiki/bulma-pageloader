@@ -1,3 +1,19 @@
+<a name="0.1.4"></a>
+## [0.1.4](https://github.com/Wikiki/bulma-pageloader/compare/v0.1.0...v0.1.4) (2018-02-09)
+
+
+### Bug Fixes
+
+* **bower:** Add missing version ([c7eb58e](https://github.com/Wikiki/bulma-pageloader/commit/c7eb58e))
+
+
+### Features
+
+* **gulp:** Add gulp dependencies ([ac9f8b0](https://github.com/Wikiki/bulma-pageloader/commit/ac9f8b0))
+* **gulp:** Add release task ([71bed8d](https://github.com/Wikiki/bulma-pageloader/commit/71bed8d))
+
+
+
 # Change Log
 
 ## [Unreleased](https://github.com/wikiki/bulma-pageloader/tree/HEAD)
