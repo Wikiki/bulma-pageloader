@@ -1,3 +1,13 @@
+<a name="0.1.6"></a>
+## [0.1.6](https://github.com/Wikiki/bulma-pageloader/compare/0.1.5...0.1.6) (2018-02-10)
+
+
+### Bug Fixes
+
+* **gulp:** Use UMD modules style ([4db80f1](https://github.com/Wikiki/bulma-pageloader/commit/4db80f1))
+
+
+
 <a name="0.1.5"></a>
 ## [0.1.5](https://github.com/Wikiki/bulma-pageloader/compare/0.1.4...0.1.5) (2018-02-10)
 

@@ -2,7 +2,7 @@
   "name": "bulma-pageloader",
   "description": "Display a page-loader to inform user that content is loading, in different colors.",
   "main": "pageloader.sass",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "authors": [
     "Wikiki <wikiki@protonmail.com> (https://wikiki.github.io/bulma-extensions/overview)"
   ],

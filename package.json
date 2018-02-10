@@ -1,6 +1,6 @@
 {
   "name": "bulma-pageloader",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Display a page-loader to inform user that content is loading, in different colors. ",
   "main": "dist/bulma-pageloader.sass",
   "scripts": {
