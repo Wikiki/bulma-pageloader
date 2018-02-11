@@ -1,3 +1,35 @@
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/Wikiki/bulma-pageloader/compare/0.1.7...1.0.0) (2018-02-10)
+
+
+
+<a name="0.1.7"></a>
+## [0.1.7](https://github.com/Wikiki/bulma-pageloader/compare/0.1.6...0.1.7) (2018-02-10)
+
+
+
+<a name="0.1.6"></a>
+## [0.1.6](https://github.com/Wikiki/bulma-pageloader/compare/0.1.5...0.1.6) (2018-02-10)
+
+
+### Bug Fixes
+
+* **gulp:** Use UMD modules style ([4db80f1](https://github.com/Wikiki/bulma-pageloader/commit/4db80f1))
+
+
+
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/Wikiki/bulma-pageloader/compare/0.1.4...0.1.5) (2018-02-10)
+
+
+### Bug Fixes
+
+* **gulp:** Correct dist filenames ([9dc4bee](https://github.com/Wikiki/bulma-pageloader/commit/9dc4bee))
+* **package:** Correct file paths ([8c6e9f6](https://github.com/Wikiki/bulma-pageloader/commit/8c6e9f6))
+* **travis:** Remove configuration ([d7398d7](https://github.com/Wikiki/bulma-pageloader/commit/d7398d7))
+
+
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/Wikiki/bulma-pageloader/compare/v0.1.0...v0.1.4) (2018-02-09)
 
