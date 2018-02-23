@@ -1,3 +1,13 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/Wikiki/bulma-pageloader/compare/1.0.0...1.0.1) (2018-02-23)
+
+
+### Bug Fixes
+
+* **gulp:** Remove Bulma’s important from dist’sass ([8a460d1](https://github.com/Wikiki/bulma-pageloader/commit/8a460d1))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/Wikiki/bulma-pageloader/compare/0.1.7...1.0.0) (2018-02-10)
 
