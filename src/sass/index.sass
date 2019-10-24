@@ -35,8 +35,12 @@ $pageloader-opacity: 1 !default
   will-change: transform
   &:not(.is-left-to-right),
   &:not(.is-right-to-left)
+  &:not(.is-bottom-to-top)
     -webkit-transform: translateY(-100%)
     transform: translateY(-100%)
+  &.is-bottom-to-top
+    -webkit-transform: translateY(100%)
+    transform: translateY(100%)
   &.is-left-to-right
     -webkit-transform: translateX(-100%)
     transform: translateX(-100%)
