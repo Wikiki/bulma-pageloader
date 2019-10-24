@@ -1,8 +1,9 @@
 {
   "name": "bulma-pageloader",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Display a page-loader to inform user that content is loading, in different colors. ",
   "main": "./dist/css/bulma-pageloader.min.css",
+  "sass": "./src/sass/index.sass",
   "scripts": {
     "build": "gulp",
     "commit": "git-cz",
@@ -33,7 +34,7 @@
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "bulma": "^0.7.1",
+    "bulma": "~0.7",
     "camelcase": "^5.0.0",
     "commitizen": "^2.10.1",
     "cz-conventional-changelog": "^2.1.0",

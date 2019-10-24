@@ -1,3 +1,6 @@
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/Wikiki/bulma-pageloader/compare/1.0.0...2.2.0) (2019-10-24)
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/Wikiki/bulma-pageloader/compare/0.1.7...1.0.0) (2018-02-10)
 
